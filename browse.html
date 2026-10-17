@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyy - SINADJAN BSIT 21006</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="header"></header>
+    <main class="container">
+        <section class="filters">
+            <input type="search" id="browseSearch"
+                   placeholder="Search stories or authors...">
+            <select id="genreFilter">
+                <option value="All">All Genres</option>
+                <option>Comedy</option>
+                <option>Drama</option>
+                <option>Fantasy</option>
+                <option>Romance</option>
+                <option>Thriller</option>
+            </select>
+            <select id="sortFilter">
+                <option value="default">Default Order</option>
+                <option value="az">Title: A–Z</option>
+                <option value="za">Title: Z–A</option>
+            </select>
+        </section>
+        <p id="resultCount" class="muted"></p>
+        <section class="book-grid" id="browseBooks"></section>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>
