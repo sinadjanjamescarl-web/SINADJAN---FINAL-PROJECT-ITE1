@@ -194,9 +194,13 @@ const stories = [
 
 
 const genres = [
-    "Action", "Adventure", "Comedy", "Drama", "Fantasy",
-    "Horror", "Mystery", "Romance", "Sci-Fi", "Sports", "Thriller"
-];
+    ...new Set(
+        stories.flatMap(story =>
+            story.genre.split(",").map(genre => genre.trim())
+        )
+    )
+].sort();
+
 
 function makeHeader(active = "home") {
     const links = [
