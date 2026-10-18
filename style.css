@@ -87,14 +87,21 @@ button:hover, .btn:hover {
     gap: 24px;
 }
 
-.logo {
+logo {
     font-size: 27px;
     font-weight: 800;
     letter-spacing: -1px;
+    color:  #070b12 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -webkit-text-fill-color: #263044 !important;
 }
 
 .logo span {
-    color: var(--primary);
+    color: #2583e8 !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -webkit-text-fill-color: #2583e8 !important;
 }
 
 .nav-links {
