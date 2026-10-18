@@ -87,7 +87,7 @@ button:hover, .btn:hover {
     gap: 24px;
 }
 
-logo {
+.logo {
     font-size: 27px;
     font-weight: 800;
     letter-spacing: -1px;
